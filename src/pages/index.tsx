@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Sweety Cafe Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-white">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-pink-300">
         
         
       </main>
