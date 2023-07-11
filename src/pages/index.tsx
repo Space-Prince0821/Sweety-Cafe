@@ -1,8 +1,10 @@
 import Head from "next/head";
+import { type NextPage } from "next";
+import { About } from "~/components/About";
 // import Link from "next/link";
 // import { api } from "~/utils/api";
 
-export default function Home() {
+const Home: NextPage = () => {
   // const hello = api.example.hello.useQuery({ text: "from tRPC" });
 
   return (
@@ -12,10 +14,11 @@ export default function Home() {
         <meta name="description" content="Sweety Cafe Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-pink-300">
-        
-        
+      <main className="flex flex-col items-center justify-center min-h-screen relative">
+        <About />
       </main>
     </>
   );
 }
+
+export default Home;
